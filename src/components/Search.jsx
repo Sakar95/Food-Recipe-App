@@ -1,11 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import RecipeItem from './RecipeItem';
-import { FaSearch } from 'react-icons/fa'
+import { FaSearch } from 'react-icons/fa';
+
+
 
 export default function Search() {
-
+    
     const App_Id = "96eb5602"
-    const App_Key = process.env.REACT_APP_RECIPE_KEY
+    // const App_Key = process.env.REACT_APP_RECIPE_KEY
+    const App_Key = "5e785b99901b3055229be5d7cd508120"
 
     const [info, setInfo] = useState([]);
     const [input, setInput] = useState("")
@@ -21,6 +24,7 @@ export default function Search() {
 
         const data = await response.json();
         setInfo(data.hits)
+        console.log(data.hits)
     }
 
     function handleChange(event) {

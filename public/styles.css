@@ -273,7 +273,7 @@ body{
 
 @media only screen and (max-width:740px) {
     .main{
-        padding: 14rem 10rem;
+        padding: 10rem 8rem;
     }
     .main h1{
         padding-left: 0px;
@@ -348,7 +348,7 @@ body{
     }
 
     .main{
-        padding: 14rem 5rem;
+        padding: 10rem 5rem;
     }
 
     .search{
