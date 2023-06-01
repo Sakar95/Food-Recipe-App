@@ -69,7 +69,7 @@ body{
 }
 
 .main{
-    font-family: 'Courgette', cursive;
+    font-family: 'Courgette';
     padding: 16rem 8rem;
     color: whitesmoke;
 }
@@ -196,7 +196,7 @@ body{
     font-family: 'Prompt', sans-serif;
     margin: 32px;
     padding: 10px;
-    font-family: 'Courgette', cursive;
+    font-family: 'Courgette';
     text-align: center;
 }
 
